@@ -3,7 +3,7 @@
 The following repository contains the code for Inventory Management implementing CRUD Operations using MongoDB, ExpressJS, EJS, AdminLTEBootstrap (front-end)
 The following is the home page of the inventory management performing CRUD Operations
 <strong>[i]Home Page</strong>
-<a href="photos/Home.PNG">
+<a href="https://github.com/ShubhamHaran/centro/blob/81cc36d668ab16012c57b88bbcc6c638ff34b274/photos/Add%20data.PNG">
   </a>
  <br><br>
  
