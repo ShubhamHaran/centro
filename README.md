@@ -2,6 +2,7 @@
 <h1>CENTRO INVENTORY MANAGEMENT</h1>
 The following repository contains the code for Inventory Management implementing CRUD Operations using MongoDB, ExpressJS, EJS, AdminLTEBootstrap (front-end)
 The following is the home page of the inventory management performing CRUD Operations
+<br>
 <strong>[i]Home Page</strong>
 <img src="photos/Home.PNG" height="600" width="900">
  <br><br>
