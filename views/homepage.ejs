@@ -1,0 +1,118 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Centro</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="icon" type="image/png" href="logo.png"/>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  
+ 
+</head>
+<body class="hold-transition sidebar-mini">
+	
+	<div class="wrapper">
+		<aside class="main-sidebar sidebar-dark-primary elevation-4">
+		<!-- Brand Logo -->
+			<a href="#" class="brand-link">
+			  <span style="text-align: center;">Menu</span>
+			</a>
+			<!-- Sidebar -->
+			<div class="sidebar">
+                <!-- Sidebar Menu -->
+  <nav class="mt-2">
+	<ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+	  <li class="nav-item">
+		<a href="/create" class="nav-link">
+		  <i class="nav-icon far fa-circle text-info"></i>
+		  <p>Add Product</p>
+		</a>
+	  </li>
+	  <li class="nav-item">
+		<a href="/" class="nav-link">
+		  <i class="nav-icon far fa-circle text-info"></i>
+		  <p class="text">Sales Details</p>
+		</a>
+	  </li>
+	  <li class="nav-item">
+		<a href="/update" class="nav-link">
+		  <i class="nav-icon far fa-circle text-info"></i>
+		  <p class="text">Update stock</p>
+		</a>
+	  </li>
+      <li class="nav-item">
+		<a href="/delete" class="nav-link">
+		  <i class="nav-icon far fa-circle text-info"></i>
+		  <p class="text">Delete product</p>
+		</a>
+	  </li>
+	  
+	</ul>
+</nav>
+<!-- /.sidebar-menu -->
+			
+			</div>
+			<!-- /.sidebar -->
+		</aside>
+		
+		<!-- Content Wrapper. Contains page content -->
+		<div class="content-wrapper">
+			
+			<section class="content-header">
+				<h1 style="text-align: center;">Centro Inventory Management</h1>
+			</section>
+			<section class="content">
+                <div class="card">
+                    <div class="card-header">
+                
+                      <div class="card-tools">
+                        <p>The Co. is promoted by the distributors of several National & International brands (Footwear & Garments) in Andhra Pradesh & Telangana. To name few: Skechers, Adidas, Nike, Franco Leone, UCB, Crocs, Clarks, US Polo, Fitflop and many more. They are in the field for the past 20 years and they also have few franchise stores of Max, Skechers, Arrow, Manyavar & Westside apart from other small formats MBOs, a total of 40 stores.
+                        With the experience and expertise they have, they simultaneously opened one more in the other part of the city. Efforts were followed by success and paved way for another 13 stores, making it 15 stores in Hyderabad, Three stores in Vijayawada & two stores in Vizag and one each in Hanmakonda, Guntur, Nellore, Kakinada, Bhimavaram and Rajahmundry,Karimnagar. We could as well step outside united AP and opened 2 stores in Bangalore and From the first store spread in about 16,000 square feet, Centro now has about 31 stores in Andhra Pradesh, Telangana, and Karnataka. Of these, about 15 stores are just in Hyderabad. Going ahead, they plan to set up nine more stores in the next six months in the southern and central region of India with focus on tier-2 and 3 cities.
+                        In the journey, the stores have set many milestones, surpassed many benchmarks set by any other retailer in the industry. Centro achieved the magical figure, the Turn over for the Financial Year 2017-18 has touched $21 Million mark. The target is now set for $ 45 Million for the FY 2018-19 with few more stores set open this year. With over 32 Stores operational as on date, ensuring that the services reach to each and every corner of the region.</p>
+                        <div class="card-body table-responsive p-0" style="height: 400px">
+                            <table class="table table-striped table-head-fixed text-nowrap">
+                                <tr>
+                                    <th style="width: 10%" >Product ID</th>
+                                    <th style="width: 10%" >Brand</th>
+                                    <th style="width: 10%" >Category</th>
+                                    <th style="width: 10%" >Name</th>
+                                    <th style="width: 10%" >Size</th>
+                                    <th style="width: 10%" >Quantity</th>
+                                    <th style="width: 10%" >Cost Price</th>
+                                    <th style="width: 10%" >Selling Price</th>
+                                    <th style="width: 10%" >Colour </th>
+                                </tr>
+                            <tbody>
+                                <% for(var i=0; i<data.length; i++) { %>
+                                    <tr>
+                                        <td><%= data[i].product_id %></td>
+                                        <td><%= data[i].brand %></td>
+                                        <td><%= data[i].category %></td>
+                                        <td><%= data[i].name %></td>
+                                        <td><%= data[i].size %></td>
+                                        <td><%= data[i].quantity %></td>
+                                        <td>₹<%= data[i].cost_price %>/-</td>
+                                        <td>₹<%= data[i].selling_price %>/-</td>
+                                        <td><%= data[i].colour %></td>
+                                    </tr>
+                                    <% } %>
+                                </tbody>
+                                </table>
+                      </div>
+                    </div>
+                </div>
+				
+			</section>
+		</div>
+		
+	</div>
+</body>
+</html>
