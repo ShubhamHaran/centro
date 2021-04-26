@@ -4,53 +4,53 @@ The following repository contains the code for Inventory Management implementing
 The following is the home page of the inventory management performing CRUD Operations
 <br>
 <strong>[i]Home Page</strong>
-<img src="photos/Home.PNG" height="600" width="900">
+<img src="photos/Home.PNG" height="600" width="1080">
  <br><br>
  
  The following is the number of records the home page displays from our database stock
 
  <strong>[ii]Home Page</strong><br><br>
-<img src="photos/Home2.PNG" height="600" width="900">
+<img src="photos/Home2.PNG" height="600" width="1080">
  <br><br>
  
  The following is the front end for adding a new product in our database stock
 
  <strong>[iii]add Page</strong><br><br>
-<img src="photos/Add data.PNG" height="600" width="900">
+<img src="photos/Add data.PNG" height="600" width="1080">
  <br><br>
  
  adding a new product in our database stock
 
  <strong>[iv]add Page</strong><br><br>
-<img src="photos/add data 2.PNG" height="600" width="900">
+<img src="photos/add data 2.PNG" height="600" width="1080">
  <br><br>
  
  update of a new product added in our database stock
 
  <strong>[v]add Page</strong><br><br>
-<img src="photos/add data 3.PNG" height="600" width="900">
+<img src="photos/add data 3.PNG" height="600" width="1080">
  <br><br>
  
  update of a stock/quantity of product in our database stock
 
  <strong>[vi]Update Page</strong><br><br>
-<img src="photos/update1.PNG" height="600" width="900">
+<img src="photos/update1.PNG" height="600" width="1080">
  <br><br>
  
  update of a stock/quantity of product in our database stock reflected in the db
 
  <strong>[vii]Update Page</strong><br><br>
-<img src="photos/update2.PNG" height="600" width="900">
+<img src="photos/update2.PNG" height="600" width="1080">
  <br><br>
  
  delete product in our database
 
  <strong>[viii]Delete Page</strong><br><br>
-<img src="photos/delete1.PNG" height="600" width="900">
+<img src="photos/delete1.PNG" height="600" width="1080">
  <br><br>
  
  delete product in our database
 
  <strong>[ix]Delete Page</strong><br><br>
-<img src="photos/delete3.PNG" height="600" width="900">
+<img src="photos/delete3.PNG" height="600" width="1080">
  <br><br>
